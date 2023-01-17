@@ -1,0 +1,39 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc;
+    background-color: #222;
+}
+
+a {
+    color: #3aadfa;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.mono {
+    font-family: monospace;
+}
+
+.bold-1 {
+    font-weight: bold;
+    letter-spacing: 1rem;
+}
+
+.bold-1::first-letter {
+    color: red;
+    font-size: 30px;
+}
+
+.table-r {
+    text-align: right;
+}
+
+.table-custom-border  td {
+    border-bottom: 1px solid #aaa;
+}
