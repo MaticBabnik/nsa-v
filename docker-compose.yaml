@@ -5,3 +5,12 @@ services:
             - ./root:/var/www/app
         ports:
             - "8080:80"
+    mysql:
+        image: mariadb
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+        ports:
+        - 3307:3306
+        volumes:
+        - ./data:/var/lib/mysql
