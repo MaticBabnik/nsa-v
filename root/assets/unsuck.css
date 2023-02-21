@@ -37,3 +37,14 @@ a {
 .table-custom-border  td {
     border-bottom: 1px solid #aaa;
 }
+
+table.btab {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+table.btab th,
+table.btab td {
+    border: 1px solid silver;
+    padding: 5px;
+}
